@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Adin's bash utility functions
+
+# catrange echoes line $1 to $2 (inclusive) of file $3
+catrange(){
+        head -n $2 $3 | tail -n $(( $2 - $1 + 1))
+}
