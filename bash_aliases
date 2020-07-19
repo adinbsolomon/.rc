@@ -1,6 +1,6 @@
 # Adin's Bash Aliases
 echo "Adin's aliases are ready to go"
-source /home/adin/.bash_utils
+source /home/adin/.rc/bash_utils
 
 # WSL Ubuntu Aliases
 alias "C:"='cd /mnt/c/Users/adinb/'
@@ -18,10 +18,10 @@ function tux-send {
 }
 
 # rc Aliases
-alias bashrc='vim /home/adin/.bashrc'
-alias aliases='vim /home/adin/.bash_aliases'
-alias srcrc='source /home/adin/.bashrc'
-alias vimrc='vim /home/adin/.vimrc'
+alias bashrc='vim /home/adin/.rc/bashrc'
+alias aliases='vim /home/adin/.rc/bash_aliases'
+alias srcrc='source /home/adin/.rc/bashrc'
+alias vimrc='vim /home/adin/.rc/vimrc'
 
 # Safety Aliases
 function backup {
@@ -38,9 +38,6 @@ alias backup-clear='ls -A1 | grep ".backup_" | xargs rm'
 # General  Aliases
 alias ll='ls -lp1h'
 alias la='ls -A1ph'
-function largest_files {
-	
-}
 
 # Python Aliases
 alias python='python3'
