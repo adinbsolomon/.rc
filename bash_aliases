@@ -37,13 +37,13 @@ function backup-restore {
 }
 alias backup-clear='ls -A1 | grep ".backup_" | xargs rm'
 
-
 # General  Aliases
 alias ll='ls -lp1h'
 alias la='ls -A1ph'
 
 # Python Aliases
 alias python='python3'
+alias pip='pip3'
 function py-venv {
 	[ -z $1 ] $$ deactivate
 	case "$1" in
