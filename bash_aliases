@@ -3,6 +3,7 @@ echo "Adin's aliases are ready to go"
 source /home/adin/.rc/bash_utils
 
 # rc Aliases
+alias .rc='cd ~/.rc'
 alias bashrc='vim /home/adin/.rc/bashrc'
 alias aliases='vim /home/adin/.rc/bash_aliases'
 alias srcrc='source /home/adin/.rc/bashrc'
