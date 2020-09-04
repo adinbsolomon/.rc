@@ -1,7 +1,7 @@
 # Adin's Bash Aliases
 echo "Adin's aliases are ready to go"
 source /home/adin/.rc/bash_utils
- 
+
 # rc Aliases
 alias .rc='cd ~/.rc'
 alias bashrc='vim /home/adin/.rc/bashrc'
