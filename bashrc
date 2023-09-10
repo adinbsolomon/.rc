@@ -1,4 +1,5 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+#!/bin/bash
+
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
