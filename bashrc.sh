@@ -113,3 +113,8 @@ fi
 
 # not sure why but this solves the subdirectory highlighting issue
 LS_COLORS='ow=02;36;40'
+
+# .profile manually because of https://github.com/microsoft/vscode-remote-release/issues/6096#issuecomment-1774153528
+if [ -f ~/.profile ]; then
+    source ~/.profile
+fi
